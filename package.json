@@ -6,7 +6,7 @@
   "scripts": {
     "dev desktop": "tauri dev",
     "clean": "cd ./src-tauri && cargo clean",
-    "icon init": "tauri icon ./icon.svg -v",
+    "icon": "tauri icon ./icon.svg -v",
     "tauri": "tauri",
     "dev": "vite",
     "build": "tsc && vite build",
@@ -19,11 +19,11 @@
     "@tauri-apps/plugin-opener": "^2"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^2",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
     "typescript": "~5.6.2",
-    "vite": "^6.0.3",
-    "@tauri-apps/cli": "^2"
+    "vite": "^6.0.3"
   }
 }
