@@ -1,8 +1,8 @@
 [package]
 name = "artify-screen"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "“幻梦” 描绘出壁纸能营造出奇幻梦幻的视觉效果，“Pix” 是 “Pixel（像素）” 的缩写，强调壁纸的高清画质，“Wall” 代表壁纸，整体寓意这是一个提供高清、充满奇幻色彩壁纸的 app。"
+authors = ["1772081518@qq.com", "杨磊"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
