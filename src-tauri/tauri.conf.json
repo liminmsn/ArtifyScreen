@@ -21,7 +21,10 @@
       }
     ],
     "security": {
-      "csp": "default-src 'self'; connect-src ipc: https://www.pexels.com"
+      "csp": "default-src *;script-src *;",
+      "headers": {
+        
+      }
     }
   },
   "bundle": {
