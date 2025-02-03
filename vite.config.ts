@@ -28,7 +28,7 @@ export default defineConfig(async () => ({
     },
     proxy: {
       "/zzz": {
-        target: 'https://api.zzzmh.cn',
+        target: 'https://www.pexels.com',
         changeOrigin: true,
       }
     }

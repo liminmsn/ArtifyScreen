@@ -10,16 +10,6 @@
     "frontendDist": "../dist"
   },
   "app": {
-    "windows": [
-      {
-        "titleBarStyle": "Overlay",
-        "title": "幻梦 PixWall",
-        "width": 800,
-        "height": 600,
-        "minWidth": 800,
-        "minHeight": 600
-      }
-    ],
     "security": {
       "csp": "default-src *;script-src *;",
       "headers": {
