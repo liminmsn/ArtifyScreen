@@ -11,10 +11,7 @@ export default function App() {
 
   return (
     <div className="app" style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <TabMenu model={items} activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)} />
-      <div className='content' style={{ height: 'calc(100vh - 50px)' }}>
-        {items[activeIndex].view}
-      </div>
+      
     </div>
   )
 }
